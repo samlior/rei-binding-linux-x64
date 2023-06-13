@@ -5,7 +5,7 @@ A simple docker for compiling [rei-binding](https://github.com/REI-Network/bindi
 ## Packages versions
 
 - `gcc` 8.5.0
-- `nodejs` 18.16.0
+- `nodejs` 14.16.0
 
 ## Environment variable
 

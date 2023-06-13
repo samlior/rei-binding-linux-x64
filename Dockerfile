@@ -13,7 +13,7 @@ RUN dnf -y --enablerepo=PowerTools install ninja-build
 
 # Install Node js
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
-RUN bash -c 'source $HOME/.nvm/nvm.sh && nvm install 18.16.0'
+RUN bash -c 'source $HOME/.nvm/nvm.sh && nvm install 14.16.0'
 
 # Copy compile script
 COPY --chown=root entrypoint.sh /
